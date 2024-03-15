@@ -119,7 +119,7 @@ class MainActivity : ComponentActivity() {
                 .height(200.dp)
                 .padding(20.dp, 0.dp, 20.dp, 0.dp)
                 .clip(RoundedCornerShape(30.dp))
-                .background(Color.Cyan)){
+                .background(MaterialTheme.colorScheme.primaryContainer)){
 
             if(imagePainter is AsyncImagePainter.State.Success){
                 Image( modifier = Modifier.fillMaxSize(),
